@@ -1,2 +1,9 @@
----
-# tasks file for mytomset1feb
+ 
+- include_tasks: installjava.yml
+- include_tasks: Tomcatuser.yml
+- include_tasks: installtomcat.yml
+- include_tasks: updatepermission.yml 
+- include_tasks: servicefile.yml 
+- include_tasks: starttomcat.yml
+- include_tasks: webinterface.yml
+- include_tasks: deployjavaappliction.yml

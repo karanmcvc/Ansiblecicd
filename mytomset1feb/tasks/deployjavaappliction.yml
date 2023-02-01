@@ -1,0 +1,5 @@
+- name: deployejava appliction 
+  get_url:
+    url: https://myjava21jan.s3.amazonaws.com/mahaLogin-5.0.war
+    dest: /opt/tomcat/webapps/mahaLogin-5.0.war
+    force_basic_auth: yes 
