@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: myapplicationserver
   become: yes
   roles: 
     - mytomset1feb
